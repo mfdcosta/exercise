@@ -1,18 +1,17 @@
-CSS SELECTORES
-
+CSS Selectors
 1. Set the text color to red, for all <p> elements.
+
 <style>
-p
- {
-  color:red;
+p {
+color: red;
 }
 </style>
 
 2. Set the text color to red, for the element with id="para1".
+
 <style>
-#para1
- {
- color:red;
+#para1 {
+  color: red;
 }
 </style>
 <body>
@@ -20,11 +19,11 @@ p
   <p id="para1">This is a paragraph</p>
 </body>
 
-3. Set the text color to red, for elements with class="colortext".
+3.Set the text color to red, for elements with class="colortext".
+
 <style>
-.colortext
- {
-  color:red;
+.colortext {
+  color: red;
 }
 </style>
 <body>
@@ -36,11 +35,9 @@ p
 
 4. Set the text color to red, for all <p> and <h1> elements. Group the selectors to minimize code.
 
-
 <style>
-h1, p
- {
-  color:red;
+h1, p {
+ color: red;
 }
 </style>
 <body>
@@ -50,13 +47,12 @@ h1, p
   <p>This is a paragraph</p>
 </body>
 
-HOW TO Add CSS
+CSS HOW TO...
 
-1. <head>
+1.Add an external style sheet with the URL: "mystyle.css".
+<head>
 <link rel="stylesheet" href="mystyle.css">
-
 </head>
-
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
@@ -66,9 +62,8 @@ HOW TO Add CSS
 2. Set the page's background color to red.
 
 <style>
-body
- {
-  background-color:red;
+body {
+ background-color: red;
 }
 </style>
 <body>
@@ -79,20 +74,17 @@ body
 
 3. Set the page's background color to red, by using an inline style.
 
-<body 
-style
-="background-color: red">
+<body style="background-color: red">
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
   <p>This is a paragraph</p>
 </body>
 
-4.Insert the missing parts to make the CSS code correct.
+4. Insert the missing parts to make the CSS code correct.
 
 <style>
-p 
-{
-color:red;
+p {
+ color: red;
 }
 </style>
 
@@ -116,10 +108,7 @@ h1 {
 
 <style>
 body {
-  background-image
-: 
-url("paper.gif")
-;
+  background-image: url("paper.gif");
 }
 </style>
 <body>
@@ -142,21 +131,13 @@ body {
   <p>This is a paragraph</p>
 </body>
 
-HTML IMAGES
+CSS Border
 
-1. Use the HTML image attributes to set the size of the image to 250 pixels wide and 400 pixels tall.
+1. Use the border shorthand property to set a "4px", "dotted", "red" border for the <p> elements.
 
-<img src="scream.png" width="250" height="400">
-
-2. Use CSS to set the size of the image to 250 pixels wide and 400 pixels tall.
-
-<img src="scream.png" style="width:250px;height:400px;"> CSS
-
-CSS BORDER
-
-1. <style>
+<style>
 p {
-  border: 4px dotted red;
+ border: 4px dotted red;
 }
 </style>
 <body>
@@ -167,35 +148,26 @@ p {
 
 2. Use the correct border property to set the border color to "red".
 
-
 <style>
 p {
   border-style: dotted;
   border-width: 4px;
-  
-border-color
-: red;
+  border-color: red;
 }
 </style>
-
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
   <p>This is a paragraph</p>
 </body>
 
-
 3. Use the correct border property to set the LEFT border to "dotted".
-
 
 <style>
 p {
-  
-border-left-style
-: dotted;
+  border-left-style: dotted;
 }
 </style>
-
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
@@ -204,14 +176,13 @@ border-left-style
 
 4. Use the correct border property to add ROUNDED borders to the <p> elements.
 
-
 <style>
 p {
   border: 2px solid red;
-  border-radius
-: 5px;
+  border-radius: 5px;
 }
 </style>
+
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
@@ -222,24 +193,27 @@ CSS Margin
 
 1. Add a 20 pixels left margin to the <h1> element.
 
+
 <style>
 h1 {
   margin-left: 20px;
 }
 </style>
+
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
   <p>This is a paragraph</p>
 </body>
 
-2.Use the shorthand margin property to add 20 pixels top and bottom margins, and 40 pixels left and right margins, on the <h1> element.
+2. Use the shorthand margin property to add 20 pixels top and bottom margins, and 40 pixels left and right margins, on the <h1> element.
 
 <style>
 h1 {
-  margin: 20px 40px;
+  margin:20px 40px;
 }
 </style>
+
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
@@ -252,11 +226,13 @@ right: 15px
 top: 20px
 bottom: 25px
 
+
 <style>
 h1 {
   margin: 20px 15px 25px 10px;
 }
 </style>
+
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
@@ -265,14 +241,166 @@ h1 {
 
 4. Use the margin property to center align the <h1> element.
 
+
 <style>
 h1 {
   margin: auto;
 }
 </style>
+
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
   <p>This is a paragraph</p>
+</body>
+
+CSS Padding
+
+1. Set the top padding of the <h1> element to 30 pixels.
+
+
+<style>
+h1 {
+  padding-top: 30px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Set the padding of all sides of the <h1> element to 30 pixels.
+
+<style>
+h1 { 
+  padding: 30px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Use the shorthand padding property to add 10 pixels left and right padding, and 40 pixels top and bottom padding, on the <h1> element.
+
+<style>
+h1 {
+  padding: 40px 10px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+CSS Height/Width
+
+1. Set the height of the <h1> element to "100px".
+
+
+<style>
+h1 {
+  height: 100px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Set the width of the <h1> element to "50%".
+
+<style>
+h1 {
+  width: 50%;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+CSS Box model
+
+1. Set the width of the <div> element to "200px".
+
+<style>
+div {
+  width: 200px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+2. <style>
+div {
+  width: 200px;
+  border: 2px solid red;
+}
+</style>
+<body>
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+3. Add 25 pixels space between the <div> element's border and its content.
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  padding: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+4. Add a 25 pixels space outside, to the left of the <div> element.
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  padding: 25px;
+  margin-left: 25px;
+}
+</style>
+<body>
+<div>
+Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididuntut labore et dolore magna aliqua.
+</div>
 </body>
 
