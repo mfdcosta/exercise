@@ -193,7 +193,6 @@ CSS Margin
 
 1. Add a 20 pixels left margin to the <h1> element.
 
-
 <style>
 h1 {
   margin-left: 20px;
@@ -226,7 +225,6 @@ right: 15px
 top: 20px
 bottom: 25px
 
-
 <style>
 h1 {
   margin: 20px 15px 25px 10px;
@@ -240,7 +238,6 @@ h1 {
 </body>
 
 4. Use the margin property to center align the <h1> element.
-
 
 <style>
 h1 {
@@ -257,7 +254,6 @@ h1 {
 CSS Padding
 
 1. Set the top padding of the <h1> element to 30 pixels.
-
 
 <style>
 h1 {
@@ -303,7 +299,6 @@ CSS Height/Width
 
 1. Set the height of the <h1> element to "100px".
 
-
 <style>
 h1 {
   height: 100px;
@@ -339,7 +334,6 @@ div {
   width: 200px;
 }
 </style>
-
 <body>
 
 <div>
@@ -376,7 +370,6 @@ div {
   padding: 25px;
 }
 </style>
-
 <body>
 
 <div>
@@ -414,7 +407,6 @@ div {
   outline-width: 5px;
 }
 </style>
-
 <body>
 
 <div>
@@ -466,3 +458,780 @@ ut labore et dolore magna aliqua.
 </body>
 
 CSS TEXT
+1. Change the text color of all <p> elements to "red".
+
+<style>
+p {
+  color: red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2.Center align the <p> elements.
+
+<style>
+p {
+  text-align: center;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Remove the underline from the link.
+
+<style>
+a {
+  text-decoration: none;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+4. Style text in <h1> to uppercase letters, and text in <p> to capitalized letters.
+
+<style>
+h1 {
+  text-transform: uppercase;
+}
+p {
+  text-transform: capitalize;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+5. Indent the first line of the <p> element with 20px.
+
+<style>
+p {
+  text-indent: 20px;
+}
+</style>
+
+<p>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</p>
+
+CS FONT
+
+1. Set the font for <h1> to "Verdana".
+
+<style>
+h1 {
+  font-family: Verdana;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+2. Set the style of <h1> to "italic" text.
+
+<style>
+h1 {
+  font-style: italic;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+3. Set the font size of <h1> to 50px.
+
+<style>
+h1 {
+  font-size: 50px;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+</body>
+
+4.Set the style of <p> elements as "bold" text.
+
+<style>
+p {
+  font-weight: bold;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>  
+</body>
+
+5. Use the correct font- property to style the <p> elements as "small-caps".
+
+<style>
+p {
+  font-variant: small-caps;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>  
+</body>
+
+CSS LINKS
+
+1. Set the color of links to "red".
+
+<style>
+a
+ {
+  color: red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+2. Set the style when you mouse over a link (hover) to red.
+
+<style>
+a:hover
+ {
+  color: red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+3. Set the style for links to pages you have visited to red.
+
+<style>
+a:visited
+ {
+  color: red;
+}
+</style>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+4. Remove the default underline style for links, but add a underline when you mouse over a link (hover).
+
+<style>
+/* unvisited link */
+a:link
+ {text-decoration: none;}
+
+/* visited link */
+a:visited
+ {text-decoration: none;}
+
+/* mouse over link */
+a:hover
+ {text-decoration: underline;}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <a href="http://w3schools.com">This is a link</a>
+</body>
+
+CSS LISTS
+
+1. Set the list style for unordered lists to "square".
+
+<style>
+ul {
+  list-style-type: square;
+}
+</style>
+
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+2. Change the list's item marker to an image called 'bling.jpg':
+
+<style>
+ul {
+  
+list-style-image: url("bling.jpg");
+}
+</style>
+
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+3. Remove the bullets/markers from the list items.
+
+<style>
+ul {
+  list-style-type: none;
+}
+</style>
+<body>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+</body>
+
+4. Set the list style to I, II, III, instead of 1, 2, 3 for ordered lists.
+
+<style>
+ol {
+  
+list-style-type: upper-roman;
+}
+</style>
+
+<body>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+</body>
+
+CSS TABLES
+
+1. Set the border to "2px solid green" for table, th and td elements.
+
+<style>
+table, th, td
+ {
+  border: 2px solid green;
+}
+</style>
+
+<body>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+</body>
+
+2. Collapse the table borders into a single border.
+
+<style>
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid green;
+}
+</style>
+
+<body>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+</body>
+
+3. Use inline styles to set the width of the table to "100%".
+
+<table 
+style="width:100%"
+>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+4. Set the text alignment in <td> elements to "right".
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+td
+ {
+  text-align: right;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+5. Set the padding in <th> elements to "15px".
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+th
+ {
+  padding: 15px;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+6. Set the background color of <th> elements to "lightblue".
+
+
+<style>
+table, th, td {
+  border: 1px solid green;
+}
+
+th
+ {
+  background-color: lightblue;
+}
+</style>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+CSS DISPLAY/VISIBILITY
+
+1. Hide the <h1> element. It should still take up the same space as before.
+
+<style>
+h1 {
+  visibility: hidden;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Hide the <h1> element. It should NOT take up any space.
+
+<style>
+h1 {
+  display: none;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Display the list items as inline elements.
+
+<style>
+li
+ {
+  display: inline;
+}
+</style>
+
+<body>
+<ul>
+  <li>Apple</li>
+  <li>Orange</li>
+  <li>Pear</li>
+</ul>
+</body>
+
+4. Display the <strong> elements as block elements.
+
+<style>
+strong
+ {
+  display: block;
+}
+</style>
+
+<body>
+<h1>This is a Heading</h1>
+<p>This is a <strong>paragraph</strong></p>
+</body>
+
+CSS POSITIONING
+
+1. Position the <h1> element to always be 50px from the top, and 10px from the right, relative to the window/frame edges.
+
+<style>
+h1 {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2. Position the <h1> element 50px from the top, relative to its normal position.
+
+<style>
+h1 {
+  position: relative;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3. Position the <h1> element 50px from the top, relative to the HTML page.
+
+<style>
+h1 {
+  position: absolute;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+4. Position the <h1> element 50px from the top, by referring to its class name.
+
+
+<style>
+.myheader
+ {
+  position: relative;
+  top: 50px;
+}
+</style>
+
+<body>
+  <h1 class="myheader">This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+CSS Z-INDEX
+
+1. Both the header and the paragraph are positioned at the top of the page.
+
+Make sure that the header is placed on top of the paragraph.
+
+<style>
+#mytitle
+ {
+  position: absolute;
+  top: 0;
+  z-index: 1;  
+}
+#myintro
+ {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+</style>
+
+<body>
+  <h1 id="mytitle">This is a heading</h1>
+  <p id="myintro">This is a paragraph</p>
+</body>
+
+CSS OVERFLOW
+
+1. Force a scroll bar to the <div> element with class="intro".
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  
+overflow: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+2. Specify that the overflowing text in the <div> element should not be visible, not even with a scroll bar.
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow: hidden;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+3.Add a horizontal scrollbar to the <div> element.
+
+<style>
+.intro {
+  width: 200px;
+  height: 70px;
+  overflow-x: scroll;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+CSS ALIGN
+
+1. Use the margin property to make sure that the <div> element is center aligned according to its parent element.
+
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+2. Position the <div> element all the way to the right by using absolute positioning.
+
+<style>
+.intro {
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+}
+</style>
+
+<body>
+
+<div class="intro">
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+Phasellus imperdiet, nulla et dictum interdum,
+nisi lorem egestas odio,
+vitae scelerisque enim ligula venenatis dolor.
+</div>
+
+</body>
+
+CSS COMBINATORS
+
+1. Change the color of all <p> elements, that are descendants of <div> elements, to "red".
+
+<style>
+div p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+2. Change the color of all <p> elements, that are immediate children of <div> elements, to "red".
+
+<style>
+div > p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+3. Change the color of the first <p> element that is directly after a <div> element, to "red".
+
+<style>
+div + p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+
+4. Change the color of the <p> elements that are siblings of a <div> element, to "red".
+
+<style>
+div ~ p
+ {
+  color: red;
+}
+</style>
+
+<body>
+
+<div>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</div>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
