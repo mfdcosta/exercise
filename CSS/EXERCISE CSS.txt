@@ -718,7 +718,6 @@ ol {
 list-style-type: upper-roman;
 }
 </style>
-
 <body>
 <ol>
   <li>Coffee</li>
@@ -860,12 +859,10 @@ th
 
 6. Set the background color of <th> elements to "lightblue".
 
-
 <style>
 table, th, td {
   border: 1px solid green;
 }
-
 th
  {
   background-color: lightblue;
@@ -910,7 +907,6 @@ h1 {
   display: none;
 }
 </style>
-
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
@@ -925,7 +921,6 @@ li
   display: inline;
 }
 </style>
-
 <body>
 <ul>
   <li>Apple</li>
@@ -989,7 +984,6 @@ h1 {
   top: 50px;
 }
 </style>
-
 <body>
   <h1>This is a heading</h1>
   <p>This is a paragraph</p>
@@ -998,7 +992,6 @@ h1 {
 
 4. Position the <h1> element 50px from the top, by referring to its class name.
 
-
 <style>
 .myheader
  {
@@ -1006,7 +999,6 @@ h1 {
   top: 50px;
 }
 </style>
-
 <body>
   <h1 class="myheader">This is a heading</h1>
   <p>This is a paragraph</p>
@@ -1051,7 +1043,6 @@ CSS OVERFLOW
 overflow: scroll;
 }
 </style>
-
 <body>
 
 <div class="intro">
@@ -1118,7 +1109,6 @@ CSS ALIGN
   margin: auto;
 }
 </style>
-
 <body>
 
 <div class="intro">
@@ -1128,7 +1118,6 @@ Phasellus imperdiet, nulla et dictum interdum,
 nisi lorem egestas odio,
 vitae scelerisque enim ligula venenatis dolor.
 </div>
-
 </body>
 
 2. Position the <div> element all the way to the right by using absolute positioning.
@@ -1141,7 +1130,6 @@ vitae scelerisque enim ligula venenatis dolor.
   right: 0px;
 }
 </style>
-
 <body>
 
 <div class="intro">
@@ -1164,9 +1152,7 @@ div p
   color: red;
 }
 </style>
-
 <body>
-
 <div>
   <p>This is a paragraph.</p>
   <p>This is a paragraph.</p>
@@ -1184,16 +1170,13 @@ div > p
   color: red;
 }
 </style>
-
 <body>
-
 <div>
   <p>This is a paragraph.</p>
   <p>This is a paragraph.</p>
 </div>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
-
 </body>
 
 3. Change the color of the first <p> element that is directly after a <div> element, to "red".
@@ -1204,9 +1187,7 @@ div + p
   color: red;
 }
 </style>
-
 <body>
-
 <div>
   <p>This is a paragraph.</p>
   <p>This is a paragraph.</p>
@@ -1224,14 +1205,11 @@ div ~ p
   color: red;
 }
 </style>
-
 <body>
-
 <div>
   <p>This is a paragraph.</p>
   <p>This is a paragraph.</p>
 </div>
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
-
 </body>
